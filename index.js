@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, (erro) => {
     if (erro) {
-        console.log("Erro ao iniciar o servidor.");
+        console.log("Erro no servidor");
     } else {
         console.log(`Servidor rodando na porta ${PORT}`);
     }
